@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    }
+    
+    body {
+        background-image: url(./img/ESTADIO.jpg);
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+    }
+    
+    .contenido-header {
+        width: 80%;
+        display:flex;
+        justify-content: space-between;
+        max-width: 50px;
+        margin: 0;
+        padding: 40px 40px;
+        margin-top: 30px;
+    }
+    
+    
+    
+    .contenedor .form  .form-header  .form-title {
+        font-weight: normal;
+        font-family: sans-serif;
+        color: #000000;
+        text-align: center;
+        padding: 14px 0;
+    }
+    
+    .contenedor .form  .form-header  .form-title span {
+        color: #ff851b;
+    }
+    
+    .contenedor .form {
+        background: rgba(0,0,0,.6);
+        width: 80%;
+        max-width: 550px;
+        margin: auto;
+        padding: 30px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -35%);
+        padding-bottom: 20px;
+        border-radius: 10px;
+        position: absolute;
+    
+    }
+    
+    .contenedor .form .form-label {
+        display: block;
+        color:#ff851b;
+        font-size: 15px;
+        font-family: roboto;
+        position: relative;
+    
+    }
+    
+    .contenedor .form .form-input  {
+        background: rgba(0,0,0,.7) ;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid #ff851b;
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        font-size: 14px;
+        color: #fff ;
+        font-family: roboto;
+    
+    }
+    
+    
+    
+    .contenedor .form .btn-submit {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        font-family: roboto;
+        outline: none;
+        background: #ff851b;
+        font-size: 16px;
+        border: none;
+        color: rgb(8, 8, 8);
+        padding: 15px 0;
+        cursor: pointer;
+        transition: all .5s ease;
+        border-radius: 10px;
+    }
+    
+    .contenedor .form .btn-submit:hover{
+        background: #f29718;
+
+    }
